@@ -1,0 +1,18 @@
+body {
+    background-color: #fcb103;
+    align-items: center;
+}
+
+.menuClass {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: strong;
+    background-color: rgb(221, 115, 115);
+    border-color: black;
+}
+
+#logoIMG {
+    height: auto; 
+    width: 200px;
+}
