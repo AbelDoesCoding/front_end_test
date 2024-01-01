@@ -11,6 +11,7 @@
     align-items: center; 
     padding-left: 630px;
     background-color: #feac32;
+    margin-bottom: 10;
 }
 
 #menuID {
@@ -21,8 +22,8 @@
 #logoIMG {
     height: auto; 
     width: 150px;
-    margin-left: -630px;
-    margin-right: 490px;
+    margin-left: -620px;
+    margin-right: 480px;
 }
 
 /* rewatch css video about erasing margins so there's no break in between header and body */
@@ -34,6 +35,7 @@
     padding-right: 350px;
     font-size: 20px;
     background-color: #e9e9ed;
+    margin-top: 10;
 }
 
 .indexStyle {
