@@ -1,9 +1,20 @@
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+.indexStyle {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
     background-color: #fcb103;
+
 }
 
 .menuClass {
-    text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-weight: 600;
     font-style: strong;
@@ -11,7 +22,13 @@ body {
     border-color: black;
 }
 
-#logoIMG {
+.logoIMG {
     height: auto; 
     width: 200px;
 }
+
+.buttonClass {
+    background-color: blueviolet;
+    font-weight: bold;
+    font-size: 40px;
+} 
