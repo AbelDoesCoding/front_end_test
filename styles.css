@@ -7,35 +7,35 @@
 
 .headerClass {
     display: flex;
-    flex-direction:row; 
-    align-items: center; 
-    padding-left: 630px;
     background-color: #feac32;
-    margin-bottom: 10;
 }
-
-#menuID {
-    background-color: #e9e9ed;
-    margin-left: 500px;
-} 
 
 #logoIMG {
     height: auto; 
     width: 150px;
-    margin-left: -620px;
-    margin-right: 480px;
 }
 
-/* rewatch css video about erasing margins so there's no break in between header and body */
+#menuID {
+    background-color: #e9e9ed;
+    margin-left: 475px;
+} 
+
+#headerName {
+    margin-left: 475px;
+}
+
+
+
 .mainContent {
+    font-size: 20px;
+    background-color: #e9e9ed;
     display: flex;
     flex-direction: column; 
     align-items: center; 
     padding-left: 350px;
     padding-right: 350px;
-    font-size: 20px;
-    background-color: #e9e9ed;
     margin-top: 10;
+    padding-bottom: 600px;
 }
 
 .indexStyle {
@@ -48,6 +48,6 @@
 .buttonClass {
     background-color: #feac32;
     font-size: 30px;
-    border: 4px solid pink;
+    border: 4px solid rgb(0, 0, 0);
     
 } 
