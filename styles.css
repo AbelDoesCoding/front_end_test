@@ -17,7 +17,7 @@
  
 .headerClass {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     background-color: #feac32;
 }
 #logoIMG {
@@ -25,11 +25,10 @@
     width: 150px;
 }
 #menuID {
-    background-color: #e9e9ed;
-    margin-left: 475px;
-} 
-#headerName {
-    margin-left: 475px;
+    margin-right: 50px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-size: 40px;
 } 
 
 .buttonClass {
@@ -41,20 +40,17 @@
 
 .mainContainer {
     display: flex;
-    background-color: rgb(241, 238, 238);
+    background-color: rgb(181, 181, 181);
     padding-bottom: 800px;
-    
-    
 }
 .mainContent {
     width: 900px;
     border: 1px solid #000000;
-
 }
 .sideContent {
     width: 600px;
     border: 1px solid #000000;
-    
 }
+.newsTitle {
 
-
+}
