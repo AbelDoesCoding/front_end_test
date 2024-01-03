@@ -1,7 +1,8 @@
 * {
-    /*box-sizing: border-box; */
+    box-sizing: border-box; 
     font-family:'Times New Roman', Times, serif;
     font-weight: 300;
+    
 
 }
 
@@ -13,7 +14,7 @@
     display: flex;
     padding-left: 10px;
 }
-
+ 
 .headerClass {
     display: flex;
     justify-content: flex-start;
@@ -29,49 +30,31 @@
 } 
 #headerName {
     margin-left: 475px;
-}
+} 
 
-
-/*
-.mainSection {
-    display: flex;
-    justify-content: center;
-    background-color: #e9e9ed;
-}
-.mainContent {
-    display: table-column;
-    justify-content: center;
-    align-items: center; 
-
-}
-.sideContent {
-    display: table-column;
-    justify-content:flex-end;
-} */
-
-.mainContainer {
-    display: flex;
-    justify-content: flex-start; 
-    background-color: rgb(211, 206, 206);
-
-}
-.mainContent {
-    display: table-column;
-    justify-content: flex-start;
-    padding-left: 40px;
-    font-size: 18px;
-    margin-right: 900px;
-    background-color: #e9e9ed;
-}
-.sideContent {
-    display:table-column;
-    margin-right: -400px;
-    /*justify-content: center; */
-    
-    
-}
 .buttonClass {
     background-color: #feac32;
     font-size: 20px;
     border: 4px solid rgb(0, 0, 0);  
 } 
+
+
+.mainContainer {
+    display: flex;
+    background-color: rgb(241, 238, 238);
+    padding-bottom: 800px;
+    
+    
+}
+.mainContent {
+    width: 900px;
+    border: 1px solid #000000;
+
+}
+.sideContent {
+    width: 600px;
+    border: 1px solid #000000;
+    
+}
+
+
