@@ -95,3 +95,33 @@
     margin-left: 500px;
     padding: 5px;
 }
+
+.footer-container {
+    color: black;
+    background-color: #FFF0FF;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.footer {
+    border: 1px black;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-right: 10px; 
+    padding-bottom: 50px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+#footer-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-address {
+    display: flex;
+    flex-direction: column;
+}
