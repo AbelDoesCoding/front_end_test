@@ -35,6 +35,18 @@
             </div>
             <div class="main-contact-center">
                 <h2> Contact Form </h2>
+                <form>
+                    <label for="fname"> First Name: </label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname"> Last name </label> <br>
+                    <input type="text" id="lname" name="lname"> <br>
+                    <label for="contactReason"> Reason For Contacting:</label> <br>
+                    <input type="text" id="contactReason" name="contactReason"> <br>
+                    <label for="email"> Email Address:</label> <br>
+                    <input type="text" id="email" name="email"> <br>
+                    <input type="submit" value="Submit" onClick="infoGrab()">
+                </form>
+                <p id="p1"> </p>
             </div>
             <div class="right-side-container">
 
@@ -65,5 +77,6 @@
         </div>
     </div>
     
+    <script src="script.js"></script>
 </body>
 </html>
